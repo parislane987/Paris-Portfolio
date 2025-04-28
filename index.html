@@ -1,0 +1,116 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="Description" content="Welcome to Paris' design portfolio. Explore my projects and professional journey.">
+<title>Paris' Portfolio</title>
+	<link rel="icon" type="image/x-icon" href="portfolio favicon.ico">
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet">
+<link href="portfolio stylesheet.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+<header>
+<div class="logo-container">
+<a href="index.html">
+<img src="portfolio logo.PNG" width="300" height="300" alt="A blue cloud with yellow font reading Paris' Portfolio, with starts behind it."/>
+</a>
+<div class="hidden">Paris' Portfolio</div>
+</div>
+<label for="search" class="hidden">Search the website.</label>
+<input type="text" class="search-bar" placeholder="Search...">
+</header>
+<nav>
+  <div class="hamburger" onclick="toggleMenu()">☰</div>
+  <div class="nav-links">
+    <a href="index.html">Home</a>
+    <div class="dropdown">
+      <a href="aboutme.html" class="dropbtn">About Me</a>
+      <div class="dropdown-content">
+        <a href="aboutme.html">Biography</a>
+        <a href="Graphic Design Resume.pdf" download target="_blank">Resume (.pdf)</a>
+      </div>
+    </div>
+    <a href="projects.html">Projects</a>
+    <a href="contactme.html">Contact Me</a>
+  </div>
+</nav>
+
+<script>
+function toggleMenu() {
+  const navLinks = document.querySelector('.nav-links');
+  navLinks.classList.toggle('active');
+}
+</script>
+	<main>
+
+	<div class="featured-projects">
+	<h1>Welcome to my Portfolio!</h1>
+	
+	<p>Welcome to my portfolio website -- a curated space where I showcase my design projects, creativity, and professional journey. Here, you'll find a selection of my work, highlighting my skills in design and problem-solving, along with my design-focused resume. This site serves as a snapshot of who I am as a designer, my passion for visual storytelling, and the unique perspective I bring to every project.</p>
+		
+	<h2>Featured Projects</h2>
+	<section id="projects">
+  <div class="project-grid">
+    <div class="project-card">
+      <img src="mcginn's logos.png" alt="An image of two custom logos depicting a pistachio and grapes in a circle, and one with a sunset and pistachio branches.">
+      <h3>McGinn's Logos</h3>
+      <p>A logo design project I did for the local pistachio ranch in town, McGinn's Pistachioland. </p>
+      <a href="mcginnslogos.html">View Project</a>
+    </div>
+
+    <div class="project-card">
+      <img src="desert bloom screenshot.png" height="199" alt="A screenshot of the Desert Bloom Rescue website that includes images of animals and information about the site.">
+      <h3>Desert Bloom Rescue</h3>
+      <p>A group web design project centered around an exotic animal rescue.</p>
+      <a href="desertbloom.html">View Project</a>
+    </div>
+		</div>
+		</section>
+		<h4>Resources</h4>
+		<p>Here are some of my favorite/most used design tools.</p>
+		 <div class="resource-icons">
+    <a href="https://www.picsart.com/" target="_blank" aria-label="Picsart">
+  <img src="picsart.png" alt="Picsart logo" class="tool-icon">
+</a>
+			 <a href="https://www.figma.com/" target="_blank" aria-label="Figma">
+  <img src="figma.png" alt="Figma logo" class="tool-icon">
+</a>
+<a href="https://www.adobe.com/products/dreamweaver.html" target="_blank" aria-label="Dreamweaver">
+  <img src="dreamweaver.png" alt="Dreamweaver logo" class="tool-icon">
+</a>
+<a href="https://www.sketchbook.com/" target="_blank" aria-label="Sketchbook">
+  <img src="sketchbook.jpg" alt="Sketchbook logo" class="tool-icon">
+</a>
+			 <a href="https://www.adobe.com/products/photoshop.html?promoid=RBS7NL7F&mv=other" target="_blank" aria-label="Photoshop">
+  <img src="photoshop.png" alt="Photoshop" class="tool-icon">
+</a>
+		</div>	
+	</div>
+	</main>
+	
+	<footer>
+        <p class="contact-title">Contact Me</p>
+	  <div class="contact-info">
+        <p>(575)-295-6725</p>
+        <p><a href="contactme.html">parisl98@nmsu.edu</a> | <a href="contactme.html">paris.lane.business@gmail.com</a></p>
+		<p class="contact-info">&copy; Paris Lane 2025</p>
+		</div>
+		 <div class="social-icons">
+        <a href="https://www.facebook.com" target="_blank" aria-label="Facebook">
+            <i class="fab fa-facebook-f"></i>
+        </a>
+        <a href="https://www.twitter.com" target="_blank" aria-label="Twitter">
+            <i class="fab fa-twitter"></i>
+        </a>
+        <a href="https://www.instagram.com" target="_blank" aria-label="Instagram">
+            <i class="fab fa-instagram"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/paris-lane-5a6277360" target="_blank" aria-label="LinkedIn">
+            <i class="fab fa-linkedin-in"></i>
+        </a>
+    </div>
+    </footer>
+	</body>
+</html>
